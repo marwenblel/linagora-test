@@ -1,0 +1,31 @@
+<div id="page-wrapper">
+  <div id="page">
+    <div id="header">
+      <div class="content">
+          <!-- Begin header-->
+          {% if page.header %}
+              <div id="header-tpl">
+                  <div class="container">
+                      {{ page.header }}
+                  </div>
+              </div>
+          {% endif %}
+          <!--End header-->
+
+      </div>
+    </div> <!--End Header-->
+    <div id="main-wrapper" class="container">
+      <div id="main">
+          <!-- Begin Content-->
+          {% if page.content %}
+              <div id="content-tpl">
+                  <div class="content">
+                      {{ page.content }}
+                  </div>
+              </div>
+          {% endif %}
+          <!--End Content-->
+      </div>
+    </div>
+  </div>
+</div>

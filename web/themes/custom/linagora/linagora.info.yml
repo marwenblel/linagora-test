@@ -1,0 +1,11 @@
+name: linagora Theme
+type: theme
+description: 'linagora Custom Theme.'
+package: core
+base theme: false
+core_version_requirement: ^10
+libraries:
+  - linagora/global-styling
+regions:
+  header: 'Header'
+  content: 'Content'
