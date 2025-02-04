@@ -1,0 +1,19 @@
+/* Basic styles for header and content regions */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .region-header {
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .region-content {
+    background-color: #f4f4f4;
+  }
+  

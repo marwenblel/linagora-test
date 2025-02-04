@@ -1,6 +1,2 @@
-Linagora figma link:
-https://www.figma.com/design/TMe0RyeZjVD8FKJG3geZ6D/Test-Linagora-%2F-Web-developer?node-id=0-1&p=f&t=0nn7It2tsGWbD2yW-0
-
-
-1- Creating an instance of Drupal 10.4.1 named "linagora-test"
-2-
+1- Creating an instance of Drupal 10.4.1 named "linagora-test",
+2- Creating Linagora custom theme,
