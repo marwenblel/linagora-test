@@ -1,19 +1,62 @@
-/* Basic styles for header and content regions */
 header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-  }
-  
-  .region-header {
+   background-color: #C42D43;
+}
+
+header[role="banner"] {
+    display: flex;
+    justify-content: space-between; /* Ensures equal spacing */
+    align-items: center; /* Aligns items vertically */
+    flex-wrap: wrap; /* Ensures responsiveness */
+    gap: 20px; /* Adds some space between the blocks */
+    height: 432px;
+}
+
+header[role="banner"] .block {
+    flex: 1; /* Makes both divs take equal width */
+    max-width: 50%; /* Prevents overflowing */
+    text-align: center; /* Centers content */
+}
+
+#block-linagora-banner img {
+    width: 100%;
+    height: 100%;
+}
+#block-linagora-siteintroduction {
+    max-width: 536px;
+}
+#block-linagora-siteintroduction img {
+    width: 204px;
+    height: 204px;
+}
+#block-linagora-siteintroduction > div:nth-of-type(2) {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
     text-align: center;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  .region-content {
-    background-color: #f4f4f4;
-  }
-  
+    color: #ffffff;
+    top: -20px;
+    position: relative;
+}
+#block-linagora-siteintroduction > div:nth-of-type(3)  {
+    width: 252px;
+    height: 60px;
+    background-color: #C42D43;
+    border: 1px solid #ffffff;
+    margin: auto;
+    border-radius: 50px;
+}
+#block-linagora-siteintroduction > div:nth-of-type(3) a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: center;
+    color: #F8F9FA;
+    text-decoration: none;
+    display: block;
+    padding-top: 12px;
+    padding-right: 29px;
+    padding-bottom: 12px;
+    padding-left: 29px;
+}
