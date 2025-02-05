@@ -5,6 +5,7 @@ global-styling:
       css/reset.css: {}
       css/layout.css: {}
       css/style.css: {}
+      css/mobile.css: {}
   js:
     js/script.js: {}
   dependencies:

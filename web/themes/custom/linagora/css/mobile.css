@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px) {
+  #block-linagora-banner {
+     display:none;
+  }
+  #block-linagora-siteintroduction {
+	  width:96vw;
+	  margin-left:auto;
+	  margin-right:auto;
+  }
+  #block-linagora-views-block-our-news-block-1 {
+	  display:none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #block-linagora-views-block-our-news-block-2 {
+     display:none;
+  }
+}
